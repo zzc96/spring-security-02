@@ -16,8 +16,8 @@ public class WebSecurityConfigurer extends WebSecurityConfigurerAdapter {
                 .formLogin()
                 .loginPage("/login.html")
                 .loginProcessingUrl("/doLogin")
-                .usernameParameter("uname")
-                .usernameParameter("passwd")
+//                .usernameParameter("uname")
+//                .usernameParameter("passwd")
                 .and()
                 .csrf().disable();
     }
